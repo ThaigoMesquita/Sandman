@@ -1,0 +1,84 @@
+.introducao h2{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Oswald';
+}
+.HQ-original{
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.4rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    
+    
+}
+.historia{
+    font-size: 1.4rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.HQ-original img{
+    margin: 0 auto;
+    float: left;
+    margin: 10px;
+ 
+}
+
+.morpheus h2{  
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Oswald';
+    margin-top: 5px;
+}
+
+.morpheus{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    font-size: 1.4rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.morpheus img {
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-family: 'Oswald';
+    margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+    .HQ-original{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+     
+    }
+    .container, .historia{
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+    }
+    .morpheus img{ 
+        width: 400px;
+    }
+    .slides{
+        max-width: max-content;
+        padding: 10px;
+    }
+    .borda{
+        max-width: 500px;
+     
+      
+    }
+    .HQ-original h2{
+        text-align: center;
+    }
+}

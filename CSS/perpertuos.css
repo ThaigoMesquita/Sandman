@@ -1,0 +1,38 @@
+.morpheus h3, h2{
+    margin: 5px;
+    font-family: 'Oswald';
+}
+
+.adpatacao h2{
+    text-align: center;
+    
+}
+
+.adpatacao img{
+    margin: 0 auto;
+}
+
+.contato{
+    padding-top: 10px;
+    margin: 0 auto;
+    border: 2px solid rgb(37, 37, 37) ;
+    border-radius: 4px ;
+    width: 40em;
+    height: 15em;
+    padding: 4px;
+    align-items: center;
+
+}
+
+.contato p {
+    font-family: 'Anton';
+    text-align: center;
+}
+.contato img{
+    float: left;
+    margin: 10px;
+    font-size: 1.2rem;
+  
+   
+}
+

@@ -1,0 +1,97 @@
+header{
+  display: block;
+  height: calc(100vh - 150px);
+  background: no-repeat center/cover url(https://i.pinimg.com/564x/a8/e4/16/a8e416bf797d54e4f321451a0a3078b0.jpg);
+}
+
+.header-content{
+  align-items: center;
+  max-width: 400px;
+  margin: 170px  auto;
+  font-family: 'Oswald';
+}
+.header-content h1{
+    display: block;
+  font-size: 3.7em;
+  font-family: 'Oswald', serif;
+  font-weight: 00;
+  
+}
+
+.header-menu{
+  font-size: 1.5rem; 
+  background-color: black;
+  border-radius: 10px;
+  padding: 6px; 
+  
+}
+
+
+.header-menu a {
+  display: inline-block;
+  padding: 16px 0px;
+  position: relative;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0px;
+  background: white;
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
+  width: 100%;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+
+  align-items: center;
+}
+
+li{
+  margin: 0px 30px;
+  flex-wrap: wrap;
+}
+nav{
+  display: flex;
+ 
+  margin: auto 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+nav h1{
+  font-size: 2.5rem;
+}
+
+@media (max-width: 800px) {
+  header{
+      width: 500px;
+  }
+  .header-content h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 3rem;
+  }
+  .header-menu{
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column-reverse;
+    
+  }
+  .header img{
+    height: 100vh;   
+  }
+  
+}
